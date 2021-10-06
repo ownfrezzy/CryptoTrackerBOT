@@ -15,7 +15,7 @@ function get_price(coin) {
 }
 
 bot.start((ctx) => {
-  return ctx.reply(get_prices());
+  ctx.reply('Welcome to Easy Currency Bot! Made by KS');
 });
 
 bot.hears(/^[A-Z]+$/i, async (ctx) => {
